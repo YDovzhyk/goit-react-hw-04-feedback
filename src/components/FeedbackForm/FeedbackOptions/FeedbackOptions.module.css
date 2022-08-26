@@ -1,0 +1,16 @@
+.button {
+    display: inline-block;
+    width: 100px;
+    cursor: pointer;
+    border: 1px solid #5d8aa8;
+    border-radius: 5px;
+    color: #5d8aa8;
+    padding: 10px 15px;
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.button:focus {
+    background-color: red;
+    color: #fff;
+}
