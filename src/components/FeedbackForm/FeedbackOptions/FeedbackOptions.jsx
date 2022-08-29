@@ -20,7 +20,10 @@ const FeedbackOptions = ({options, onLeaveFeedback}) => {
 
 export default FeedbackOptions;
 
-FeedbackOptions.defaultProps = {}
+FeedbackOptions.defaultProps = {
+    options: {},
+    onLeaveFeedback: () => {},
+}
 
 FeedbackOptions.propTypes = {
     options: PropTypes.shape({
